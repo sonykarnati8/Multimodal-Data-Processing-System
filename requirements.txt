@@ -1,0 +1,22 @@
+# Core
+pdfplumber>=0.6.0
+python-docx>=0.8.11
+python-pptx>=0.6.21
+pillow>=9.0.0
+pytesseract>=0.3.10
+youtube-transcript-api>=0.5.0
+python-dotenv>=1.0.0
+
+# Optional / fallbacks (transcription)
+whisper @ git+https://github.com/openai/whisper.git  # optional, heavy
+pydub>=0.25.1
+SpeechRecognition>=3.8.1
+
+# SQLite and general
+tinydb>=4.7.0
+
+# LLM (Gemini) (optional)
+google-generativeai>=0.2.0
+
+# Optional UI
+streamlit>=1.20.0
